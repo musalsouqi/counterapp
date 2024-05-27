@@ -1,1 +1,80 @@
-Read me to be made
+# CalorieTrackr - Calorie Counting App
+
+Welcome to the CalorieTrackr GitHub repository! CalorieTrackr is a Java-based desktop application designed to help users track their daily calorie intake. This application leverages Codename One to create a seamless user experience across different platforms.
+
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [License](#license)
+
+## Features
+- User-friendly interface for tracking daily calorie intake.
+- Add, edit, and delete food items with their corresponding calorie values.
+- View summary of daily calorie consumption.
+- Responsive design for various screen sizes.
+- Built using Codename One, enabling cross-platform compatibility.
+
+## Installation
+### Prerequisites
+- Java 8 or higher
+- Maven 3.6 or higher
+
+### Steps
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/musalsouqi/CalorieTrackr-calorie-counting-app.git
+   cd CalorieTrackr-calorie-counting-app
+   ```
+
+2. **Build the project:**
+   ```sh
+   mvn clean install
+   ```
+
+3. **Run the application:**
+   ```sh
+   mvn exec:java -Dexec.mainClass="com.ourapp.counterapp.MainStub"
+   ```
+
+## Usage
+1. **Launching the App:**
+   - Upon running the application, a window will appear with the main interface of CalorieTrackr.
+   
+2. **Adding Food Items:**
+   - Use the interface to add food items and their respective calorie values.
+   
+3. **Viewing Calorie Summary:**
+   - Track your daily calorie intake through the summary provided in the app.
+
+## Project Structure
+The project follows a standard structure for a Codename One application:
+```
+src
+├── main
+│   ├── java
+│   │   └── com
+│   │       └── ourapp
+│   │           └── counterapp
+│   │               ├── MainStub.java
+│   │               └── Main.java
+│   └── resources
+│       ├── NativeTheme.res
+│       ├── applicationIconImage_16x16.png
+│       └── META-INF
+│           └── MANIFEST.MF
+└── test
+    └── java
+        └── com
+            └── ourapp
+                └── counterapp
+                    └── MainTest.java
+```
+
+## License
+This project is licensed under the GNU General Public License version 2 (GPLv2). See the `LICENSE` file for more details.
+
+---
+
+If you have any questions or need further assistance, please contact the project maintainers through the GitHub repository. Happy calorie tracking with CalorieTrackr!
